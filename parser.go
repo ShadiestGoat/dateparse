@@ -31,7 +31,7 @@ func (d DateTimeParser) ParseTime(inp string, tz *time.Location) (time.Duration,
 }
 
 var cleanDateSuffix = map[string]string{
-	"1st": "1", "2nd": "2", "3d": "3", "th": "",
+	"1st": "1", "2nd": "2", "2d": "2", "3d": "3", "3rd": "3", "th": "",
 }
 
 // Parses exclusively dates. tz must not be nil. inp should be an array of words. Cleans up the dates slightly:
