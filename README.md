@@ -1,5 +1,7 @@
 # Time Date Parse
 
+[![Go Reference](https://pkg.go.dev/badge/github.com/shadiestgoat/dateparse.svg)](https://pkg.go.dev/github.com/shadiestgoat/dateparse) [![Go Report Card](https://goreportcard.com/badge/github.com/shadiestgoat/dateparse)](https://goreportcard.com/report/github.com/shadiestgoat/dateparse)
+
 This package parses dates and times, in a dynamic manner with multiple types. Note that this is not a relative natural date parsing library - it cannot by default handle very natural language!
 
 ## Install
